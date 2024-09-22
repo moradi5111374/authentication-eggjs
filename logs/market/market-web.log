@@ -1,0 +1,75 @@
+2024-09-18 11:39:07,521 ERROR 1594484 [-/127.0.0.1/-/2ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'secret')
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/base.js:60:57)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 1594484
+hostname: NC-S-Moradi
+
+2024-09-18 11:40:30,972 ERROR 1594484 [-/127.0.0.1/-/1ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'secret')
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/base.js:60:57)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 1594484
+hostname: NC-S-Moradi
+
+2024-09-18 11:40:54,686 ERROR 1595046 [-/127.0.0.1/-/13ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'secret')
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/base.js:60:57)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 1595046
+hostname: NC-S-Moradi
+
+2024-09-18 11:41:21,402 ERROR 1595046 [-/127.0.0.1/-/2ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'secret')
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/base.js:60:57)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 1595046
+hostname: NC-S-Moradi
+
+2024-09-18 11:47:33,129 ERROR 1596795 [-/127.0.0.1/-/11ms POST /login] nodejs.ReferenceError: config is not defined
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/base.js:60:77)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 1596795
+hostname: NC-S-Moradi
+

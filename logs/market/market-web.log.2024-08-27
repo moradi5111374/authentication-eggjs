@@ -1,0 +1,538 @@
+2024-07-10 01:00:48,471 WARN 14236 [-/127.0.0.1/-/28ms POST /api/user] nodejs.SyntaxError: Unexpected token u in JSON at position 7, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\eggjs-project\market-backend\market\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async parseBody (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:67:19)
+    at async D:\eggjs-project\market-backend\market\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\meta.js:12:5)
+status: 400
+body: "{\r\n    username: 'sddddddd',\r\n    password: 1232344\r\n}"
+pid: 14236
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 01:02:41,749 WARN 13684 [-/127.0.0.1/-/42ms POST /api/user] nodejs.SyntaxError: Unexpected token u in JSON at position 7, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\eggjs-project\market-backend\market\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async parseBody (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:67:19)
+    at async D:\eggjs-project\market-backend\market\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\meta.js:12:5)
+status: 400
+body: "{\r\n    username: 'sddddddd',\r\n    password: '1234578'\r\n}"
+pid: 13684
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 01:23:04,429 WARN 12024 [-/127.0.0.1/-/43ms POST /api/user] nodejs.SyntaxError: Unexpected token u in JSON at position 7, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\eggjs-project\market-backend\market\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async parseBody (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:67:19)
+    at async D:\eggjs-project\market-backend\market\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\meta.js:12:5)
+status: 400
+body: "{\r\n    username: 'sddddddd',\r\n    password: '1234578'\r\n}"
+pid: 12024
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 01:24:17,319 WARN 15344 [-/127.0.0.1/-/38ms POST /api/user] nodejs.SyntaxError: Unexpected token u in JSON at position 7, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\eggjs-project\market-backend\market\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async parseBody (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:67:19)
+    at async D:\eggjs-project\market-backend\market\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\meta.js:12:5)
+status: 400
+body: "{\r\n    username: 'sddddddd',\r\n    password: '1234578',\r\n}"
+pid: 15344
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 01:25:30,705 WARN 12512 [-/127.0.0.1/-/41ms POST /api/user] nodejs.SyntaxError: Unexpected token u in JSON at position 7, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\eggjs-project\market-backend\market\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async parseBody (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:67:19)
+    at async D:\eggjs-project\market-backend\market\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\meta.js:12:5)
+status: 400
+body: "{\r\n    username: 'sddddddd',\r\n    password: '1234578',\r\n}"
+pid: 12512
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 01:26:22,631 WARN 4036 [-/127.0.0.1/-/42ms POST /api/user] nodejs.SyntaxError: Unexpected token u in JSON at position 7, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\eggjs-project\market-backend\market\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async parseBody (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:67:19)
+    at async D:\eggjs-project\market-backend\market\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\meta.js:12:5)
+status: 400
+body: "{\r\n    username: 'sddddddd',\r\n    password: '1234578',\r\n}"
+pid: 4036
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 01:33:34,999 WARN 420 [-/127.0.0.1/-/7ms POST /api/register] nodejs.SyntaxError: Unexpected token u in JSON at position 7, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\eggjs-project\market-backend\market\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async parseBody (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:67:19)
+    at async D:\eggjs-project\market-backend\market\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\meta.js:12:5)
+status: 400
+body: "{\r\n    username: 'sddddddd',\r\n    password: '1234578',\r\n}"
+pid: 420
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 01:38:38,650 WARN 6960 [-/127.0.0.1/-/53ms POST /register] nodejs.SyntaxError: Unexpected token u in JSON at position 7, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\eggjs-project\market-backend\market\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async parseBody (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:67:19)
+    at async D:\eggjs-project\market-backend\market\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\meta.js:12:5)
+status: 400
+body: "{\r\n    username: 'sddddddd',\r\n    password: '1234578',\r\n}"
+pid: 6960
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 01:43:38,743 WARN 11864 [-/127.0.0.1/-/51ms POST /register] nodejs.SyntaxError: Unexpected token u in JSON at position 7, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\eggjs-project\market-backend\market\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async parseBody (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:67:19)
+    at async D:\eggjs-project\market-backend\market\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\meta.js:12:5)
+status: 400
+body: "{\r\n    username: 'sddddddd',\r\n    password: '1234578',\r\n}"
+pid: 11864
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 01:44:07,863 WARN 2832 [-/127.0.0.1/-/48ms POST /register] nodejs.SyntaxError: Unexpected token u in JSON at position 7, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\eggjs-project\market-backend\market\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async parseBody (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:67:19)
+    at async D:\eggjs-project\market-backend\market\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\meta.js:12:5)
+status: 400
+body: "{\r\n    username: 'sddddddd',\r\n    password: '1234578',\r\n}"
+pid: 2832
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 01:45:16,704 WARN 2832 [-/127.0.0.1/-/4ms POST /register] nodejs.SyntaxError: Unexpected token u in JSON at position 7, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\eggjs-project\market-backend\market\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async parseBody (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:67:19)
+    at async D:\eggjs-project\market-backend\market\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\meta.js:12:5)
+status: 400
+body: "{\r\n    username: 'sddddddd',\r\n    password: '1234578',\r\n}"
+pid: 2832
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 01:45:21,156 WARN 12132 [-/127.0.0.1/-/43ms POST /register] nodejs.SyntaxError: Unexpected token u in JSON at position 7, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\eggjs-project\market-backend\market\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async parseBody (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:67:19)
+    at async D:\eggjs-project\market-backend\market\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\meta.js:12:5)
+status: 400
+body: "{\r\n    username: 'sddddddd',\r\n    password: '1234578',\r\n}"
+pid: 12132
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 01:45:29,250 WARN 12132 [-/127.0.0.1/-/4ms POST /register] nodejs.SyntaxError: Unexpected token u in JSON at position 7, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\eggjs-project\market-backend\market\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\eggjs-project\market-backend\market\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async parseBody (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\eggjs-project\market-backend\market\node_modules\koa-bodyparser\index.js:67:19)
+    at async D:\eggjs-project\market-backend\market\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\eggjs-project\market-backend\market\node_modules\egg\app\middleware\meta.js:12:5)
+status: 400
+body: "{\r\n    username: 'sddddddd',\r\n    password: '1234578',\r\n}"
+pid: 12132
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 02:16:42,523 ERROR 15132 [-/127.0.0.1/-/105ms POST /register] nodejs.TypeError: Joi.validate is not a function
+    at AuthCtrl.CreateUser (D:\eggjs-project\market-backend\market\app\controller\auth.js:21:32)
+    at Object.callFn (D:\eggjs-project\market-backend\market\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\eggjs-project\market-backend\market\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 15132
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 02:17:33,220 ERROR 3368 [-/127.0.0.1/-/76ms POST /register] nodejs.TypeError: Joi.validate is not a function
+    at AuthCtrl.CreateUser (D:\eggjs-project\market-backend\market\app\controller\auth.js:21:32)
+    at Object.callFn (D:\eggjs-project\market-backend\market\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\eggjs-project\market-backend\market\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 3368
+hostname: DESKTOP-8RDTLOF
+
+2024-07-10 02:18:14,249 ERROR 8456 [-/127.0.0.1/-/76ms POST /register] nodejs.TypeError: Joi.validate is not a function
+    at AuthCtrl.CreateUser (D:\eggjs-project\market-backend\market\app\controller\auth.js:20:32)
+    at Object.callFn (D:\eggjs-project\market-backend\market\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\eggjs-project\market-backend\market\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\eggjs-project\market-backend\market\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 8456
+hostname: DESKTOP-8RDTLOF
+
+2024-08-27 10:58:46,782 ERROR 710369 [-/127.0.0.1/-/9ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'select')
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:46:64)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 710369
+hostname: NC-S-Moradi
+
+2024-08-27 11:01:31,338 ERROR 711262 [-/127.0.0.1/-/7ms POST /login] nodejs.TypeError: service.select is not a function
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:46:59)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 711262
+hostname: NC-S-Moradi
+
+2024-08-27 11:02:18,144 ERROR 711474 [-/127.0.0.1/-/11ms POST /login] nodejs.TypeError: service.select is not a function
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:46:59)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 711474
+hostname: NC-S-Moradi
+
+2024-08-27 11:03:47,530 ERROR 711981 [-/127.0.0.1/-/7ms POST /login] nodejs.TypeError: service.select is not a function
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:46:32)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 711981
+hostname: NC-S-Moradi
+
+2024-08-27 11:08:07,178 ERROR 712540 [-/127.0.0.1/-/2ms POST /login] nodejs.TypeError: service.select is not a function
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:46:32)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 712540
+hostname: NC-S-Moradi
+
+2024-08-27 11:08:11,687 ERROR 712540 [-/127.0.0.1/-/7ms POST /login] nodejs.TypeError: service.select is not a function
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:46:32)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 712540
+hostname: NC-S-Moradi
+
+2024-08-27 11:17:08,920 ERROR 714496 [-/127.0.0.1/-/10ms POST /login] nodejs.TypeError: username.toLowerCase is not a function
+    at Object.firstUpper (/home/moradi/Desktop/egg-example/market22/app/helper/helpers.js:3:31)
+    at /home/moradi/Desktop/egg-example/market22/app/controller/auth.js:48:43
+    at Array.filter (<anonymous>)
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:47:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 714496
+hostname: NC-S-Moradi
+
+2024-08-27 11:17:59,127 ERROR 715024 [-/127.0.0.1/-/10ms POST /login] nodejs.TypeError: username.toLowerCase is not a function
+    at Object.firstUpper (/home/moradi/Desktop/egg-example/market22/app/helper/helpers.js:3:31)
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:47:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+
+pid: 715024
+hostname: NC-S-Moradi
+
+2024-08-27 11:18:21,138 ERROR 715229 [-/127.0.0.1/-/10ms POST /login] nodejs.TypeError: username.toLowerCase is not a function
+    at Object.firstUpper (/home/moradi/Desktop/egg-example/market22/app/helper/helpers.js:3:31)
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:47:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+
+pid: 715229
+hostname: NC-S-Moradi
+
+2024-08-27 11:18:45,473 ERROR 715359 [-/127.0.0.1/-/12ms POST /login] nodejs.TypeError: username.toLowerCase is not a function
+    at Object.firstUpper (/home/moradi/Desktop/egg-example/market22/app/helper/helpers.js:3:31)
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:47:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+
+pid: 715359
+hostname: NC-S-Moradi
+
+2024-08-27 11:19:29,872 ERROR 715623 [-/127.0.0.1/-/10ms POST /login] nodejs.TypeError: username.toLowerCase is not a function
+    at Object.firstUpper (/home/moradi/Desktop/egg-example/market22/app/helper/helpers.js:3:31)
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:47:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+
+pid: 715623
+hostname: NC-S-Moradi
+
+2024-08-27 11:51:03,106 ERROR 720232 [-/127.0.0.1/-/12ms POST /login] nodejs.TypeError: users.findOne is not a function
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:49:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/koa-static-cache/index.js:39:63
+
+pid: 720232
+hostname: NC-S-Moradi
+
+2024-08-27 11:51:58,264 ERROR 720536 [-/127.0.0.1/-/9ms POST /login] nodejs.TypeError: users.findOne is not a function
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:49:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/koa-static-cache/index.js:39:63
+
+pid: 720536
+hostname: NC-S-Moradi
+
+2024-08-27 11:52:39,553 ERROR 720825 [-/127.0.0.1/-/12ms POST /login] nodejs.TypeError: users.findOne is not a function
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:50:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/koa-static-cache/index.js:39:63
+
+pid: 720825
+hostname: NC-S-Moradi
+
+2024-08-27 11:58:16,818 ERROR 721403 [-/127.0.0.1/-/16ms POST /login] nodejs.TypeError: users.findOne is not a function
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:51:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/koa-static-cache/index.js:39:63
+
+pid: 721403
+hostname: NC-S-Moradi
+
+2024-08-27 11:59:07,449 ERROR 721593 [-/127.0.0.1/-/16ms POST /login] nodejs.TypeError: users.findOne is not a function
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:51:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/koa-static-cache/index.js:39:63
+
+pid: 721593
+hostname: NC-S-Moradi
+
+2024-08-27 11:59:46,594 ERROR 721850 [-/127.0.0.1/-/11ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'then')
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:54:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/koa-static-cache/index.js:39:63
+
+pid: 721850
+hostname: NC-S-Moradi
+
+2024-08-27 12:00:28,934 ERROR 722256 [-/127.0.0.1/-/9ms POST /login] nodejs.TypeError: users.filter(...).then is not a function
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:50:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/koa-static-cache/index.js:39:63
+
+pid: 722256
+hostname: NC-S-Moradi
+
+2024-08-27 12:00:49,875 ERROR 722392 [-/127.0.0.1/-/11ms POST /login] nodejs.TypeError: users.filter(...).then is not a function
+    at AuthCtrl.LoginUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:50:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/koa-static-cache/index.js:39:63
+
+pid: 722392
+hostname: NC-S-Moradi
+

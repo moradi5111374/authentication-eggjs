@@ -1,0 +1,45 @@
+2024-09-17 13:13:33,751 ERROR 1450046 [-/127.0.0.1/-/67ms POST /register] nodejs.TypeError: this.success is not a function
+    at AuthCtrl.RegisterUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:21:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/koa-static-cache/index.js:39:63
+
+pid: 1450046
+hostname: NC-S-Moradi
+
+2024-09-17 13:13:56,691 ERROR 1450406 [-/127.0.0.1/-/14ms POST /register] nodejs.TypeError: this.success is not a function
+    at AuthCtrl.RegisterUser (/home/moradi/Desktop/egg-example/market22/app/controller/auth.js:21:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/egg-development/app/middleware/egg_loader_trace.js:7:50
+    at async xframe (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/moradi/Desktop/egg-example/market22/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/moradi/Desktop/egg-example/market22/node_modules/koa-bodyparser/index.js:78:5)
+    at async /home/moradi/Desktop/egg-example/market22/node_modules/koa-static-cache/index.js:39:63
+
+pid: 1450406
+hostname: NC-S-Moradi
+
+2024-09-17 13:29:12,151 ERROR 1455664 [-/127.0.0.1/-/12ms POST /register] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at AuthCtrl.RegisterUser (/home/moradi/Desktop/egg-example/market22/app/controller/base.js:24:45)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/moradi/Desktop/egg-example/market22/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /home/moradi/Desktop/egg-example/market22/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 1455664
+hostname: NC-S-Moradi
+

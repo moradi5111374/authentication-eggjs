@@ -1,0 +1,312 @@
+{
+  "keys": "/home/moradi/Desktop/egg-example/market22/config/config.default.js",
+  "middleware": "/home/moradi/Desktop/egg-example/market22/config/config.default.js",
+  "jwt": {
+    "secret": "/home/moradi/Desktop/egg-example/market22/config/config.default.js",
+    "tokenExpireTime": "/home/moradi/Desktop/egg-example/market22/config/config.default.js"
+  },
+  "security": {
+    "csrf": "/home/moradi/Desktop/egg-example/market22/config/config.default.js",
+    "domainWhiteList": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js",
+      "value": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js",
+      "value": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js",
+      "value": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js",
+      "policy": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js",
+      "hostnameExceptionList": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "mysql": {
+    "client": {
+      "host": "/home/moradi/Desktop/egg-example/market22/config/config.default.js",
+      "port": "/home/moradi/Desktop/egg-example/market22/config/config.default.js",
+      "user": "/home/moradi/Desktop/egg-example/market22/config/config.default.js",
+      "password": "/home/moradi/Desktop/egg-example/market22/config/config.default.js",
+      "database": "/home/moradi/Desktop/egg-example/market22/config/config.default.js"
+    },
+    "default": {
+      "database": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-mysql/config/config.default.js"
+    },
+    "app": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-mysql/config/config.default.js",
+    "agent": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-mysql/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-session/config/config.default.js",
+    "key": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-session/config/config.default.js",
+    "logValue": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-watcher/config/config.default.js",
+      "development": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-schedule/config/config.default.js",
+      "file": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+    "defaultParamCharset": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+    "files": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-static/config/config.default.js",
+    "dir": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-static/config/config.default.js",
+    "preload": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-static/config/config.default.js",
+    "buffer": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-view/config/config.default.js",
+    "cache": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-view/config/config.default.js",
+    "mapping": "/home/moradi/Desktop/egg-example/market22/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "name": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "cookies": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "proxy": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "version": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "description": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "private": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "bcryptjs": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "egg": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "http-status-codes": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "joi": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "jsonwebtoken": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "egg-mock": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "eslint": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "stop": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "dev": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "test": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "test:local": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "cov": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "lint": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "ci": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "url": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+    },
+    "author": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "license": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "HOME": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "rundir": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "timing": {
+      "slowBootActionMinDuration": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+    }
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "notFound": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "sitefile": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "middlewares": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "httpClient": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "cacheControl": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "encoding": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "formLimit": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "textLimit": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "strict": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "depth": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "encoding": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "env": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "level": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "outputJSON": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "buffer": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "appLogName": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "coreLogName": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "agentLogName": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "errorLogName": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "enableFastContextLogger": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "maxSockets": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "maxSockets": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+    },
+    "useHttpClientNext": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+  },
+  "meta": {
+    "enable": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "logging": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "port": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+      "hostname": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/home/moradi/Desktop/egg-example/market22/node_modules/egg/config/config.default.js"
+}

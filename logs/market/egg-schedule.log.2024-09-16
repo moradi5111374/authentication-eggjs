@@ -1,0 +1,9 @@
+2024-09-16 04:30:00,001 INFO 299197 [Timer] /home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86399999ms at 2024-09-17 04:30:00.000
+2024-09-16 04:30:00,001 INFO 301479 [Job#17264484000007535142165131756] /home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2024-09-16 04:30:00,002 INFO 301479 [Job#17264484000007535142165131756] /home/moradi/Desktop/egg-example/market22/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 1ms. 
+2024-09-17 00:00:00,000 INFO 301479 [Job#17265186000008237142161180107] /home/moradi/Desktop/egg-example/market22/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2024-09-17 00:00:00,001 INFO 301479 [Job#17265186000008237142161180107] /home/moradi/Desktop/egg-example/market22/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 1ms. 
+2024-09-17 00:00:00,001 INFO 299197 [Timer] /home/moradi/Desktop/egg-example/market22/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86400000ms at 2024-09-18 00:00:00.001
+2024-09-17 00:00:01,000 INFO 301479 [Job#17265186010008237152162112947] /home/moradi/Desktop/egg-example/market22/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2024-09-17 00:00:01,007 INFO 301479 [Job#17265186010008237152162112947] /home/moradi/Desktop/egg-example/market22/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 7ms. 
+2024-09-17 00:00:01,001 INFO 299197 [Timer] /home/moradi/Desktop/egg-example/market22/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86400000ms at 2024-09-18 00:00:01.001
